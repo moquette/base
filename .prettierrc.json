@@ -1,0 +1,35 @@
+{
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "printWidth": 80,
+  "semi": false,
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "options": {
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": ["*.tsx"],
+      "options": {
+        "parser": "typescript",
+        "bracketSameLine": false,
+        "jsxSingleQuote": false
+      }
+    },
+    {
+      "files": ["*.scss"],
+      "options": {
+        "parser": "scss"
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
