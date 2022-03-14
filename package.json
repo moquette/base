@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Minimalist React boilerplate for TypeScript Projects.",
   "homepage": "https://base.moquette.us/",
   "license": "MIT",
@@ -23,7 +23,10 @@
     "postinstall": "husky install"
   },
   "lint-staged": {
-    "./src/**/*.{ts,js,jsx,tsx}": ["yarn lint --fix", "yarn format"]
+    "./src/**/*.{ts,js,jsx,tsx}": [
+      "yarn lint --fix",
+      "yarn format"
+    ]
   },
   "dependencies": {
     "react": "17.0.2",
@@ -91,7 +94,11 @@
     }
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
