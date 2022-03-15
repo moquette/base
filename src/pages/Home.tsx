@@ -9,7 +9,7 @@ export function Home() {
         octoColor="#282c34"
         bannerColor="#61DAFB"
       />
-      <div className="home">
+      <main className="home">
         <img src={logo} className="logo" alt="logo" />
         <h2>BASE</h2>
         <p>
@@ -37,7 +37,7 @@ export function Home() {
             Fork on Github
           </a>
         </p>
-      </div>
+      </main>
     </>
   )
 }

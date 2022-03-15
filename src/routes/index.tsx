@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import { Home } from '@/pages/Home'
-import { NotFound } from '@/pages/404'
+import { NotFound } from '@/pages/PageNotFound'
 
 export function Router() {
   return (
