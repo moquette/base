@@ -14,7 +14,6 @@ module.exports = {
     filename: 'js/bundle.[contenthash].js',
     path: path.resolve(__dirname, 'build'),
     assetModuleFilename: 'images/bundle.[contenthash][ext][query]',
-    clean: true,
   },
   resolve: {
     plugins: [new TsconfigPathsPlugin()],
