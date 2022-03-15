@@ -130,6 +130,7 @@ Checks for and updates package dpendencies.
 **yarn analyzer:**
 
 Visualize size of webpack output files with an interactive zoomable treemap.
+**Note:** Make sure to build project (`yarn build`) prior to analyzing.
 
 ## Yarn / NPM
 
