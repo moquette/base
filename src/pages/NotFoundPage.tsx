@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import logo from '@/images/logo.svg'
 
-export function NotFound() {
+export function NotFoundPage() {
   return (
     <main className="not-found">
       <img src={logo} className="logo" alt="logo" />

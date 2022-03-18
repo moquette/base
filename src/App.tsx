@@ -1,5 +1,5 @@
-import { Router } from '@/routes'
-import '@/styles/app.scss'
+import { Router } from '@/main/routes'
+import '@/styles/main.scss'
 
 export function App() {
   return <Router />

@@ -17,7 +17,7 @@ export function Home() {
           <br />
           boilerplate for TypeScript Projects.
           <br />
-          Edit <code>&apos;src/pages/Home.tsx&apos;</code>
+          Edit <code>&apos;src/resources/pages/Home.tsx&apos;</code>
           and save to reload.
           <br />
           <a

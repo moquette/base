@@ -12,6 +12,8 @@
     "moduleResolution": "node",
     "baseUrl": "src",
     "paths": {
+      "@/images/*": ["resources/images/*"],
+      "@/styles/*": ["resources/styles/*"],
       "@/*": ["*"]
     },
     "allowSyntheticDefaultImports": true,
