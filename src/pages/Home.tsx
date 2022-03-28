@@ -18,7 +18,6 @@ export function Home() {
           boilerplate for TypeScript Projects.
           <br />
           Edit <code>&apos;src/resources/pages/Home.tsx&apos;</code>
-          and save to reload.
           <br />
           <a
             href="https://reactjs.org"
