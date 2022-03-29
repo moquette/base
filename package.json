@@ -13,7 +13,7 @@
   "main": "index.tsx",
   "scripts": {
     "start": "webpack serve",
-    "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
+    "build": "yarn isReady && rimraf ./build && cross-env NODE_ENV=production webpack",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "lint:fix": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --fix",
     "format": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx|json|css|md)\" --write",
