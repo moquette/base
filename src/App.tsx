@@ -1,5 +1,5 @@
 import Router from '@/main/routes'
-import '@/styles/main.scss'
+import '@/styles/base.scss'
 
 const App = () => <Router />
 

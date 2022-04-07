@@ -12,9 +12,9 @@ const Home = () => (
       <img src={logo} className="logo" alt="logo" />
       <h2>BASE</h2>
       <p>
-        Minimalist React Boilerplate
+        Minimalist React 18
         <br />
-        for TypeScript Projects
+        Boilerplate for TS Projects
       </p>
     </main>
   </>
