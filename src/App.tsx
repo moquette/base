@@ -1,6 +1,6 @@
-import { Router } from '@/main/routes'
+import Router from '@/main/routes'
 import '@/styles/main.scss'
 
-export function App() {
-  return <Router />
-}
+const App = () => <Router />
+
+export default App

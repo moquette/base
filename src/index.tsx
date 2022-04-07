@@ -1,11 +1,12 @@
 import { StrictMode } from 'react'
-import { render } from 'react-dom'
-import { App } from '@/App'
+import ReactDOM from 'react-dom/client'
+import App from '@/App'
 import '@/styles/tailwind.scss'
 
-render(
+const root = ReactDOM.createRoot(document.getElementById(`root`))
+
+root.render(
   <StrictMode>
     <App />
-  </StrictMode>,
-  document.getElementById(`root`)
+  </StrictMode>
 )
