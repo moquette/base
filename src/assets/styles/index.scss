@@ -1,0 +1,6 @@
+@import './tailwind.css';
+
+body {
+  @apply font-sans text-sm;
+  background-color: $background-color;
+}

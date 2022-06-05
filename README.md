@@ -8,11 +8,11 @@ A Minimalist React boilerplate for TypeScript Projects.
 
 ## Features
 
-- [React 17](https://reactjs.org/)
-- [React Router 6](https://reactrouter.com)
-- [Webpack 5](https://webpack.js.org)
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com)
+- [Webpack](https://webpack.js.org)
 - [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer/)
-- [TailwindCSS 3](https://tailwindcss.com)
+- [TailwindCSS](https://tailwindcss.com)
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
 - [TypeScript 4](https://www.typescriptlang.org)
@@ -28,7 +28,7 @@ I use React.js for almost every front-end project I create. Here's a solid boile
 - We can eliminate all of its disadvantages by setting up dependencies and configs ourselves (add dependencies as needed) making it easier to add/modify build configs;
 - Minimal webpack and babel configs required to run a react application;
 - Production-ready build set up, with linters and pre-commit hooks.
-- Support for both JSX and TSX
+- Support for both TSX and JSX
 
 ## Usage
 
@@ -88,7 +88,7 @@ import { EmailJS } from '../../components/EmailJS'
 **Universal Alias Importing**
 
 ```typescript
-import { EmailJS } from '@/components/EmailJS'
+import { EmailJS } from '@components/EmailJS'
 ```
 
 ## Sass and TailwindCSS
@@ -107,27 +107,11 @@ Start development server and lanches default browser.
 
 Builds and bundles resources for production.
 
-**yarn type-check:**
-
-Validates code with TypeScript compiler.
-
 **yarn lint:**
 
-Runs ESLint and on all files in the `src` directory.
+Lints, formats and typechecks all files in the `src` directory.
 
-**yarn format:**
-
-Runs Prettier formatting on all files in the `src` directory.
-
-**yarn commit:**
-
-Runs commitizen, an alternative to `git commit`.
-
-**yarn update-dependencies:**
-
-Checks for and updates package dpendencies.
-
-**yarn analyzer:**
+**yarn profile:**
 
 Visualize size of webpack output files with an interactive zoomable treemap.
 **Note:** Make sure to build project (`yarn build`) prior to analyzing.

@@ -1,0 +1,40 @@
+.styles {
+  &-header {
+    background: $background-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    line-height: 1.5;
+    color: white;
+  }
+
+  &-logo {
+    $size: 40vmin;
+    width: $size;
+    height: $size;
+    pointer-events: none;
+    @media (prefers-reduced-motion: no-preference) {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  &-link {
+    color: #61dafb;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

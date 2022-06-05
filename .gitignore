@@ -1,20 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
-.pnp.cjs
-.pnp.loader.mjs
+
+# Not using Zero-Installs:
+# See https://yarnpkg.com/getting-started/qa for more info.
+.pnp.*
 .yarn/*
+.yarn/versions/*
+!.yarn/patches
 !.yarn/plugins
-!.yarn/sdks
 !.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # testing
 /coverage
 
 # production
 /build
-/dist
 
 # misc
 .DS_Store
