@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Webpack/TypeScript/React boilerplate with support for most common loaders and modules.",
   "keywords": [
     "react",
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@types/classnames": "^2.3.1",
-    "@types/react": "^18.0.10",
+    "@types/react": "^18.0.11",
     "@types/react-dom": "^18.0.5",
     "classnames": "^2.3.1",
     "git-branch-is": "^4.0.0",
