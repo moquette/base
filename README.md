@@ -1,6 +1,6 @@
 # Base
 
-A Minimalist React boilerplate for TypeScript Projects.
+A Minimalist production ready Webpack/React boilerplate for TypeScript Projects.
 
 ## Demo
 

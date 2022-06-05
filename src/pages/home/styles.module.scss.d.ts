@@ -6,6 +6,7 @@ declare namespace StylesModuleScssNamespace {
     stylesHeader: string
     stylesLink: string
     stylesLogo: string
+    stylesTitle: string
     themeColor: string
   }
 }

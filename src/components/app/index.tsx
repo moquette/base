@@ -9,7 +9,7 @@ export function App() {
         <Route
           path="/"
           element={
-            <Home title="Minimalist React Boilerplate for TS Projects" />
+            <Home title="A Minimalist production ready Webpack/React boilerplate for TypeScript Projects." />
           }
         />
         <Route path="*" element={<NotFound />} />
