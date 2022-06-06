@@ -1,10 +1,12 @@
 # Base
 
+<a href="https://base.moquette.us/" rel="Link to demo"><img src="./docs/resources/cover.png" alt="Link to demo" /></a>
+
 A Minimalist production ready Webpack/React boilerplate for TypeScript Projects.
 
-## Demo
-
-<a href="https://base.moquette.us/" rel="Lint to demo"><img src="./docs/resources/cover.png" alt="Link to demo" /></a>
+<a href="https://base.moquette.us" alt="Demo Page">![](https://img.shields.io/static/v1?label=Demo&message=https://base.moquette.us&style=flat-square&color=blue)</a>
+![Version](https://img.shields.io/github/package-json/v/moquette/base?style=flat-square&color=blue) ![Commit](https://img.shields.io/github/last-commit/moquette/base?style=flat-square&color=blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
 ## Features
 
