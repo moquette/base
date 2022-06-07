@@ -8,6 +8,7 @@ A Minimalist production ready Webpack/React boilerplate for TypeScript Projects.
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
 <a href="https://github.com/moquette/base" alt="Code Page">![](https://img.shields.io/static/v1?label=GitHub&message=https://github.com/moquette/base&style=flat-square&color=blue)</a>
+
 <a href="https://base.moquette.us" alt="Demo Page">![](https://img.shields.io/static/v1?label=Demo&message=https://base.moquette.us&style=flat-square&color=blue)</a>
 
 ## Features
