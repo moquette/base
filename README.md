@@ -13,17 +13,13 @@ A Minimalist production ready Webpack/React boilerplate for TypeScript Projects.
 
 ## Features
 
-- [React](https://reactjs.org/)
-- [React Router](https://reactrouter.com)
-- [Webpack](https://webpack.js.org)
-- [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer/)
-- [TailwindCSS](https://tailwindcss.com)
-- [Babel](https://babeljs.io/)
-- [Sass](https://sass-lang.com/)
-- [TypeScript 4](https://www.typescriptlang.org)
-- [Prettier](https://prettier.io) + [ESLint](http://eslint.org) + [Airbnb](https://github.com/airbnb/javascript)
-- [Husky](https://typicode.github.io/husky/#/)
-- [Lint-staged](https://github.com/okonet/lint-staged#readme)
+- [React](https://reactjs.org/) / [React Router](https://reactrouter.com)
+- [Webpack](https://webpack.js.org) / [Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer/)
+- [TailwindCSS](https://tailwindcss.com) / [Automatic Class Sorting](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier/)
+- [Sass](https://sass-lang.com/) / [Less](https://lesscss.org/) / [PostCSS](https://postcss.org/)
+- [TypeScript](https://www.typescriptlang.org) / [Babel](https://babeljs.io/)
+- [Prettier](https://prettier.io) / [ESLint](http://eslint.org) / [Airbnb](https://github.com/airbnb/javascript)
+- [Husky](https://typicode.github.io/husky/#/) / [Lint-staged](https://github.com/okonet/lint-staged#readme)
 
 ## Project
 
@@ -63,7 +59,7 @@ yarn
 yarn start
 ```
 
-Pages served from http://localhost:3000 and [HMR](https://webpack.js.org/concepts/hot-module-replacement/) enabled.
+Pages served from http://localhost:3000.
 
 **NOTE:**
 Auto type checking, linting and formatting performed on pre-commit.
@@ -96,9 +92,21 @@ import { EmailJS } from '../../components/EmailJS'
 import { EmailJS } from '@components/EmailJS'
 ```
 
-## Sass and TailwindCSS
+**Preconfigured Aliases:**
+(src/tsconfig.json)
 
-Sass and TailwindCSS are both supported.
+```
+"@src/*" : ["src/*"],
+"@images/*" : ["src/assets/images/*"],
+"@styles/*" : ["src/assets/styles/*"],
+"@pages/*" : ["src/pages/*"],
+"@hooks/*" : ["src/hooks/*"],
+"@components/*" : ["src/components/*"]
+```
+
+## TailwindCSS / SASS
+
+TailwindCSS / Sass and PostCSS support.
 
 `tailwind.config.js` is located in the project's root an initialzed in `styles/global.scss` . Visit [TailwindCSS](https://tailwindcss.com/docs/configuration) for more information.
 
