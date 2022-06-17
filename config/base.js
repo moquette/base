@@ -15,11 +15,13 @@ export default {
   entry,
   output: {
     path: path.join(__dirname, '../dist'),
-    publicPath: isDevServer ? undefined : './',
+    publicPath: isDevServer ? undefined : '/',
     assetModuleFilename: isDevServer
       ? 'static/media/[name].[fullhash][ext][query]'
       : 'static/media/[name].[contenthash][ext][query]',
-    filename: isDevServer ? 'static/js/[name].[fullhash].js' : 'static/js/[name].[contenthash].js',
+    filename: isDevServer
+      ? 'static/js/[name].[fullhash].js'
+      : 'static/js/[name].[contenthash].js',
   },
   module: {
     rules: arrayFilterEmpty([
