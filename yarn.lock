@@ -1763,13 +1763,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^7.28.2":
-  version: 7.29.0
-  resolution: "@types/eslint@npm:7.29.0"
+"@types/eslint@npm:^7.29.0 || ^8.4.1":
+  version: 8.4.3
+  resolution: "@types/eslint@npm:8.4.3"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
-  checksum: df13991c554954353ce8f3bb03e19da6cc71916889443d68d178d4f858b561ba4cc4a4f291c6eb9eebb7f864b12b9b9313051b3a8dfea3e513dadf3188a77bdf
+  checksum: cc199be84e22754cc625b171c90852da2b563088d32f4161d310b70470eab47f9bc812774c61eab6530083a214fe634abc32d06ef38e0a5e29f68436331cfabb
   languageName: node
   linkType: hard
 
@@ -2802,9 +2802,9 @@ __metadata:
     eslint-plugin-import: ~2.26.0
     eslint-plugin-jsx-a11y: ~6.5.1
     eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-react: ~7.30.0
+    eslint-plugin-react: ~7.30.1
     eslint-plugin-react-hooks: ~4.6.0
-    eslint-webpack-plugin: ~3.1.1
+    eslint-webpack-plugin: ~3.2.0
     fork-ts-checker-webpack-plugin: ~7.2.11
     git-branch-is: ^4.0.0
     html-loader: ~3.1.2
@@ -2828,14 +2828,14 @@ __metadata:
     react-router-dom: ^6.3.0
     regenerator-runtime: ~0.13.9
     resolve-url-loader: ~5.0.0
-    sass: ~1.52.3
+    sass: ~1.53.0
     sass-loader: ~13.0.0
     sass-resources-loader: ~2.2.5
     style-loader: ~3.3.1
     svg-url-loader: ~7.1.1
-    tailwindcss: ^3.1.3
+    tailwindcss: ^3.1.4
     terser-webpack-plugin: ~5.3.3
-    ts-loader: ~9.3.0
+    ts-loader: ~9.3.1
     tsconfig-paths-webpack-plugin: ^3.5.2
     typescript: ~4.7.4
     url-loader: ~4.1.1
@@ -4262,9 +4262,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:~7.30.0":
-  version: 7.30.0
-  resolution: "eslint-plugin-react@npm:7.30.0"
+"eslint-plugin-react@npm:~7.30.1":
+  version: 7.30.1
+  resolution: "eslint-plugin-react@npm:7.30.1"
   dependencies:
     array-includes: ^3.1.5
     array.prototype.flatmap: ^1.3.0
@@ -4282,7 +4282,7 @@ __metadata:
     string.prototype.matchall: ^4.0.7
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: 729b7682a0fe6eab068171c159503ac57120ecc7b20067e76300b08879745c16a687e2033378ab45d9a3182da8844d06197a89081be83e1eb21fcceb76e79214
+  checksum: 553fb9ece6beb7c14cf6f84670c786c8ac978c2918421994dcc4edd2385302022e5d5ac4a39fafdb35954e29cecddefed61758040c3c530cafcf651f674a9d51
   languageName: node
   linkType: hard
 
@@ -4338,19 +4338,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-webpack-plugin@npm:~3.1.1":
-  version: 3.1.1
-  resolution: "eslint-webpack-plugin@npm:3.1.1"
+"eslint-webpack-plugin@npm:~3.2.0":
+  version: 3.2.0
+  resolution: "eslint-webpack-plugin@npm:3.2.0"
   dependencies:
-    "@types/eslint": ^7.28.2
-    jest-worker: ^27.3.1
-    micromatch: ^4.0.4
+    "@types/eslint": ^7.29.0 || ^8.4.1
+    jest-worker: ^28.0.2
+    micromatch: ^4.0.5
     normalize-path: ^3.0.0
-    schema-utils: ^3.1.1
+    schema-utils: ^4.0.0
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0
     webpack: ^5.0.0
-  checksum: 4ff3f3fc8f03a187792f783513c3f4274221623d5f5c16ca90542c1b781fd04ed646ab6043caa55a51a654d5ab2c7039677faedee8bfb526d1310edc3909cbd2
+  checksum: 095034c35e773fdb21ec7e597ae1f8a6899679c290db29d8568ca94619e8c7f4971f0f9edccc8a965322ab8af9286c87205985a38f4fdcf17654aee7cd8bb7b5
   languageName: node
   linkType: hard
 
@@ -5855,7 +5855,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-worker@npm:^27.3.1, jest-worker@npm:^27.4.5":
+"jest-worker@npm:^27.4.5":
   version: 27.5.1
   resolution: "jest-worker@npm:27.5.1"
   dependencies:
@@ -5863,6 +5863,17 @@ __metadata:
     merge-stream: ^2.0.0
     supports-color: ^8.0.0
   checksum: 98cd68b696781caed61c983a3ee30bf880b5bd021c01d98f47b143d4362b85d0737f8523761e2713d45e18b4f9a2b98af1eaee77afade4111bb65c77d6f7c980
+  languageName: node
+  linkType: hard
+
+"jest-worker@npm:^28.0.2":
+  version: 28.1.1
+  resolution: "jest-worker@npm:28.1.1"
+  dependencies:
+    "@types/node": "*"
+    merge-stream: ^2.0.0
+    supports-color: ^8.0.0
+  checksum: 28519c43b4007e60a3756d27f1e7884192ee9161b6a9587383a64b6535f820cc4868e351a67775e0feada41465f48ccf323a8db34ae87e15a512ddac5d1424b2
   languageName: node
   linkType: hard
 
@@ -6332,7 +6343,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.0, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
+"micromatch@npm:^4.0.0, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5":
   version: 4.0.5
   resolution: "micromatch@npm:4.0.5"
   dependencies:
@@ -8224,16 +8235,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:~1.52.3":
-  version: 1.52.3
-  resolution: "sass@npm:1.52.3"
+"sass@npm:~1.53.0":
+  version: 1.53.0
+  resolution: "sass@npm:1.53.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 175a073c0e7b67d1baff6d3969431228002ece681886cebc2a354c241134ff120fda5c12a0465989966dacfb1ca518d85507304f4d4cd03d4a91d71dbc77d978
+  checksum: 4bcb0617d6a4d1f2c089a1cb5c32f65a9ee874b23559f2742fab07cf8478fb74ad20c0730cf9f93915d7dbfc258901f89970674228c3ac91c3883a0a62a0ddab
   languageName: node
   linkType: hard
 
@@ -8818,9 +8829,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.1.3":
-  version: 3.1.3
-  resolution: "tailwindcss@npm:3.1.3"
+"tailwindcss@npm:^3.1.4":
+  version: 3.1.4
+  resolution: "tailwindcss@npm:3.1.4"
   dependencies:
     arg: ^5.0.2
     chokidar: ^3.5.3
@@ -8849,7 +8860,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: ff7e159301ad1e55db95e9251c27c7d0f2274ac149874201d4ebcca8db2f1d3aba6f1e22ada88499961936d21ec74a82a6aa461064e1a3d0668017e2b0d3658d
+  checksum: 716b7d80e51c4904d845920cbb88483114ae6f14b20328b9206f49fd642bbcd390b9764fc574f85901b0377184c5d4eb94c00bcf73e280f81e772cf621d390a5
   languageName: node
   linkType: hard
 
@@ -8985,9 +8996,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-loader@npm:~9.3.0":
-  version: 9.3.0
-  resolution: "ts-loader@npm:9.3.0"
+"ts-loader@npm:~9.3.1":
+  version: 9.3.1
+  resolution: "ts-loader@npm:9.3.1"
   dependencies:
     chalk: ^4.1.0
     enhanced-resolve: ^5.0.0
@@ -8996,7 +9007,7 @@ __metadata:
   peerDependencies:
     typescript: "*"
     webpack: ^5.0.0
-  checksum: 90755ac5850890ff433f2f8c7186d57ae4e172d389342d874b50ab233675f06c47c69043c517e2a2eeaf2251637ecfac607ac6190c89340f246ceff8c7f4af7a
+  checksum: 462a8ac315017cf4961dafd2be29d5abe7c3af63c4515e325269f79b9d0212b35c59184d7fd01fc378749c88454752e1599301d2190eb6844ea5fe332de5f695
   languageName: node
   linkType: hard
 
