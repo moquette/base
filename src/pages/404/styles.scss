@@ -1,8 +1,6 @@
 @import '../../assets/styles/common.scss';
 
 /* Component Specific Styles */
-.styles {
-  &-header {
-    background: $background-color;
-  }
+.header {
+  background: $background-color;
 }

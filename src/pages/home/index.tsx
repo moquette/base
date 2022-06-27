@@ -1,24 +1,24 @@
-import GithubCorner from 'react-github-corner'
+import './styles.scss'
 
-import { Footer } from '@components/footer'
-
+import Footer from '@components/footer'
 import logo from '@images/logo.svg'
-
-import { stylesHeader, stylesLogo, stylesTitle } from './styles.module.scss'
+import GithubCorner from 'react-github-corner'
 
 type HomeProps = {
   title?: string
 }
 
-export const Home: React.FunctionComponent<HomeProps> = ({ title }) => (
-  <div className={stylesHeader}>
+const Home: React.FunctionComponent<HomeProps> = ({ title }) => (
+  <div className="header">
     <GithubCorner
       href="https://github.com/moquette/base"
       octoColor="#3178c6"
       bannerColor="#fff"
     />
-    <img src={logo} alt="logo" className={stylesLogo} />
-    {title && <p className={stylesTitle}>{title}</p>}
+    <img src={logo} alt="logo" className="logo" />
+    {title && <p className="title">{title}</p>}
     <Footer />
   </div>
 )
+
+export default Home

@@ -1,0 +1,10 @@
+@import '../../assets/styles/common.scss';
+
+/* Component Specific Styles */
+.header {
+  background: $background-color;
+}
+.title {
+  text-align: center;
+  padding: 0 5em;
+}
