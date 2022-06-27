@@ -1390,7 +1390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4":
   version: 7.18.3
   resolution: "@babel/runtime@npm:7.18.3"
   dependencies:
@@ -2665,7 +2665,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-core@npm:^4.3.5":
+"axe-core@npm:^4.4.2":
   version: 4.4.2
   resolution: "axe-core@npm:4.4.2"
   checksum: 93fbb36c5ac8ab5e67e49678a6f7be0dc799a9f560edd95cca1f0a8183def8c50205972366b9941a3ea2b20224a1fe230e6d87ef38cb6db70472ed1b694febd1
@@ -2790,7 +2790,7 @@ __metadata:
     classnames: ^2.3.1
     clean-webpack-plugin: ~4.0.0
     copy-webpack-plugin: ~11.0.0
-    core-js: ~3.23.2
+    core-js: ~3.23.3
     cross-env: ^7.0.3
     css-loader: ~6.7.1
     cssnano: ~5.1.12
@@ -2800,8 +2800,8 @@ __metadata:
     eslint-config-prettier: ~8.5.0
     eslint-import-resolver-alias: ~1.1.2
     eslint-plugin-import: ~2.26.0
-    eslint-plugin-jsx-a11y: ~6.5.1
-    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-jsx-a11y: ~6.6.0
+    eslint-plugin-prettier: ^4.1.0
     eslint-plugin-react: ~7.30.1
     eslint-plugin-react-hooks: ~4.6.0
     eslint-webpack-plugin: ~3.2.0
@@ -2829,7 +2829,7 @@ __metadata:
     regenerator-runtime: ~0.13.9
     resolve-url-loader: ~5.0.0
     sass: ~1.53.0
-    sass-loader: ~13.0.0
+    sass-loader: ~13.0.2
     sass-resources-loader: ~2.2.5
     style-loader: ~3.3.1
     svg-url-loader: ~7.1.1
@@ -3418,10 +3418,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:~3.23.2":
-  version: 3.23.2
-  resolution: "core-js@npm:3.23.2"
-  checksum: dc388ec8565610eff11d8ea81c390b002c8aeaaff20224b132737680c4ed13d1c2feddd4a4e803e9fa60cef633c66847e1cbc51d387c2c2cd8928927267af3a3
+"core-js@npm:~3.23.3":
+  version: 3.23.3
+  resolution: "core-js@npm:3.23.3"
+  checksum: f517546388e468bd3155afbf06f38f8fe0448134fe086c4ed9c4d371d52db71e80585073b59362948777e01f2377ef7064925e1a3d9312a1c56da47eadfaca9a
   languageName: node
   linkType: hard
 
@@ -3636,7 +3636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"damerau-levenshtein@npm:^1.0.7":
+"damerau-levenshtein@npm:^1.0.8":
   version: 1.0.8
   resolution: "damerau-levenshtein@npm:1.0.8"
   checksum: d240b7757544460ae0586a341a53110ab0a61126570ef2d8c731e3eab3f0cb6e488e2609e6a69b46727635de49be20b071688698744417ff1b6c1d7ccd03e0de
@@ -4216,31 +4216,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:~6.5.1":
-  version: 6.5.1
-  resolution: "eslint-plugin-jsx-a11y@npm:6.5.1"
+"eslint-plugin-jsx-a11y@npm:~6.6.0":
+  version: 6.6.0
+  resolution: "eslint-plugin-jsx-a11y@npm:6.6.0"
   dependencies:
-    "@babel/runtime": ^7.16.3
+    "@babel/runtime": ^7.18.3
     aria-query: ^4.2.2
-    array-includes: ^3.1.4
+    array-includes: ^3.1.5
     ast-types-flow: ^0.0.7
-    axe-core: ^4.3.5
+    axe-core: ^4.4.2
     axobject-query: ^2.2.0
-    damerau-levenshtein: ^1.0.7
+    damerau-levenshtein: ^1.0.8
     emoji-regex: ^9.2.2
     has: ^1.0.3
-    jsx-ast-utils: ^3.2.1
+    jsx-ast-utils: ^3.3.1
     language-tags: ^1.0.5
-    minimatch: ^3.0.4
+    minimatch: ^3.1.2
+    semver: ^6.3.0
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: 311ab993ed982d0cc7cb0ba02fbc4b36c4a94e9434f31e97f13c4d67e8ecb8aec36baecfd759ff70498846e7e11d7a197eb04c39ad64934baf3354712fd0bc9d
+  checksum: d9da9a3ec71137c12519289c63e71250d5d78d4b7729b84e7e12edf1aad993083f23303d9b62359591b2f8aababb1bbec032cd84f1425e759b11a055e3acd144
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "eslint-plugin-prettier@npm:4.0.0"
+"eslint-plugin-prettier@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "eslint-plugin-prettier@npm:4.1.0"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
@@ -4249,7 +4250,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: 03d69177a3c21fa2229c7e427ce604429f0b20ab7f411e2e824912f572a207c7f5a41fd1f0a95b9b8afe121e291c1b1f1dc1d44c7aad4b0837487f9c19f5210d
+  checksum: 3f731b9988383851f1a42bd67a093461886fc56dc5d0ca4c72bdd0755dc0f843faedde843c1812710a75782a9711096aad22b6140fe7d6f996cc4a672c8b3643
   languageName: node
   linkType: hard
 
@@ -5993,13 +5994,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsx-ast-utils@npm:^2.4.1 || ^3.0.0, jsx-ast-utils@npm:^3.2.1":
+"jsx-ast-utils@npm:^2.4.1 || ^3.0.0":
   version: 3.3.0
   resolution: "jsx-ast-utils@npm:3.3.0"
   dependencies:
     array-includes: ^3.1.4
     object.assign: ^4.1.2
   checksum: e3c0667e8979c70600fb0456b19f0ec194994c953678ac2772a819d8d5740df2ed751e49e4f1db7869bf63251585a93b18acd42ef02269fe41cb23941d0d4950
+  languageName: node
+  linkType: hard
+
+"jsx-ast-utils@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "jsx-ast-utils@npm:3.3.1"
+  dependencies:
+    array-includes: ^3.1.5
+    object.assign: ^4.1.2
+  checksum: 1d4b32fd24bbba561d5ca5c8d6ea095be646f83fc357d6f0cd2752f97f3ba0e0ffabc2f54b37a9d98258fc8ec0e1286cb7723cc1c9dc7af402d74fff72ae0a2b
   languageName: node
   linkType: hard
 
@@ -8198,9 +8209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:~13.0.0":
-  version: 13.0.0
-  resolution: "sass-loader@npm:13.0.0"
+"sass-loader@npm:~13.0.2":
+  version: 13.0.2
+  resolution: "sass-loader@npm:13.0.2"
   dependencies:
     klona: ^2.0.4
     neo-async: ^2.6.2
@@ -8219,7 +8230,7 @@ __metadata:
       optional: true
     sass-embedded:
       optional: true
-  checksum: f7af03813dccf0405eb02917cd10c97571ab81f42e9ea1f3da6d9e96991e076521809a452ad319d57c1a63273ce07c23ddfdbda5cd071a56d261dc28913afdaa
+  checksum: 6306712cc75bd4b4260ce67178778c92110089485f358b5956b6b12aba15a55e5c7287154daaf8b32678891df915b7bcda7356991afe8bf08ca7356ed30eb448
   languageName: node
   linkType: hard
 
