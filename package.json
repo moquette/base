@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "version": "2.0.28",
+  "version": "2.0.29",
   "description": "Webpack/TypeScript/React boilerplate with support for most common loaders and modules.",
   "keywords": [
     "react",
@@ -52,8 +52,8 @@
     "@babel/register": "~7.17.7",
     "@pmmmwh/react-refresh-webpack-plugin": "~0.5.7",
     "@teamsupercell/typings-for-css-modules-loader": "~2.5.1",
-    "@typescript-eslint/eslint-plugin": "~5.29.0",
-    "@typescript-eslint/parser": "~5.29.0",
+    "@typescript-eslint/eslint-plugin": "~5.30.0",
+    "@typescript-eslint/parser": "~5.30.0",
     "autoprefixer": "~10.4.7",
     "babel-eslint": "~10.1.0",
     "babel-loader": "~8.2.5",
