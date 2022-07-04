@@ -1,3 +1,7 @@
+body {
+  @apply font-sans text-sm;
+}
+
 .header {
   background: $background-color;
   min-height: 100vh;
