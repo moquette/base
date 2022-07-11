@@ -2125,14 +2125,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.0.14":
-  version: 18.0.14
-  resolution: "@types/react@npm:18.0.14"
+"@types/react@npm:^18.0.15":
+  version: 18.0.15
+  resolution: "@types/react@npm:18.0.15"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 608eb57a383eedc54c79949673e5e8314f6b0c61542bff58721c8c47a18c23e2832e77c656050c2c2c004b62cf25582136c7c56fe1b6263a285c065fae31dbcf
+  checksum: e22cc388d1c145aa184787e44dc28db4789976c704cd5db475c170bb76a560eb81def5f346cfe750949bb3d43ad88822b8cbb9f19b1286e3795892a8263e7715
   languageName: node
   linkType: hard
 
@@ -2993,7 +2993,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": ~0.5.7
     "@teamsupercell/typings-for-css-modules-loader": ~2.5.1
     "@types/classnames": ^2.3.1
-    "@types/react": ^18.0.14
+    "@types/react": ^18.0.15
     "@types/react-dom": ^18.0.6
     "@typescript-eslint/eslint-plugin": ~5.30.5
     "@typescript-eslint/parser": ~5.30.5
@@ -3003,7 +3003,7 @@ __metadata:
     classnames: ^2.3.1
     clean-webpack-plugin: ~4.0.0
     copy-webpack-plugin: ~11.0.0
-    core-js: ~3.23.3
+    core-js: ~3.23.4
     cross-env: ^7.0.3
     css-loader: ~6.7.1
     cssnano: ~5.1.12
@@ -3018,7 +3018,7 @@ __metadata:
     eslint-plugin-react: ~7.30.1
     eslint-plugin-react-hooks: ~4.6.0
     eslint-webpack-plugin: ~3.2.0
-    fork-ts-checker-webpack-plugin: ~7.2.11
+    fork-ts-checker-webpack-plugin: ~7.2.12
     git-branch-is: ^4.0.0
     html-loader: ~3.1.2
     html-webpack-plugin: ~5.5.0
@@ -3033,7 +3033,7 @@ __metadata:
     postcss-loader: ~7.0.0
     prettier: ~2.7.1
     prettier-plugin-import-sort: ~0.0.7
-    prettier-plugin-tailwindcss: ^0.1.11
+    prettier-plugin-tailwindcss: ^0.1.12
     react: ^18.2.0
     react-dom: ^18.2.0
     react-github-corner: ^2.5.0
@@ -3046,7 +3046,7 @@ __metadata:
     sass-resources-loader: ~2.2.5
     style-loader: ~3.3.1
     svg-url-loader: ~7.1.1
-    tailwindcss: ^3.1.4
+    tailwindcss: ^3.1.5
     terser-webpack-plugin: ~5.3.3
     ts-loader: ~9.3.1
     tsconfig-paths-webpack-plugin: ^3.5.2
@@ -3631,10 +3631,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:~3.23.3":
-  version: 3.23.3
-  resolution: "core-js@npm:3.23.3"
-  checksum: f517546388e468bd3155afbf06f38f8fe0448134fe086c4ed9c4d371d52db71e80585073b59362948777e01f2377ef7064925e1a3d9312a1c56da47eadfaca9a
+"core-js@npm:~3.23.4":
+  version: 3.23.4
+  resolution: "core-js@npm:3.23.4"
+  checksum: 1317591dbd4a6dc357b68da324dfab52ffecc0193fe577c55bedc058af3ec96a47c7d68dff4dc914badf398ca120c0b58815fca3a162a497abf73166910d834c
   languageName: node
   linkType: hard
 
@@ -4962,9 +4962,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:~7.2.11":
-  version: 7.2.11
-  resolution: "fork-ts-checker-webpack-plugin@npm:7.2.11"
+"fork-ts-checker-webpack-plugin@npm:~7.2.12":
+  version: 7.2.12
+  resolution: "fork-ts-checker-webpack-plugin@npm:7.2.12"
   dependencies:
     "@babel/code-frame": ^7.16.7
     chalk: ^4.1.2
@@ -4984,7 +4984,7 @@ __metadata:
   peerDependenciesMeta:
     vue-template-compiler:
       optional: true
-  checksum: b02942753e1c90b62ca674bfa004bc1561049b0c8c0fdc4d62bb13c156c93a0f2f496a7d3f95f93adcbac46c830bf83ba4c9fdef64cf871cdedf2f69f403511f
+  checksum: 79ccc4e6275c3f3e04e29bfcf13fe3eec1c61e285c1df942c14c92644a5c4f49deb4044cc73bef3becf24fa567a7fb6e37987f1fe2cae69f63fb4eba93bd9caa
   languageName: node
   linkType: hard
 
@@ -5851,7 +5851,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.2.0, is-core-module@npm:^2.8.1":
+"is-core-module@npm:^2.2.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.9.0
   resolution: "is-core-module@npm:2.9.0"
   dependencies:
@@ -7486,12 +7486,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-load-config@npm:^3.1.4":
-  version: 3.1.4
-  resolution: "postcss-load-config@npm:3.1.4"
+"postcss-load-config@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "postcss-load-config@npm:4.0.1"
   dependencies:
     lilconfig: ^2.0.5
-    yaml: ^1.10.2
+    yaml: ^2.1.1
   peerDependencies:
     postcss: ">=8.0.9"
     ts-node: ">=9.0.0"
@@ -7500,7 +7500,7 @@ __metadata:
       optional: true
     ts-node:
       optional: true
-  checksum: 1c589504c2d90b1568aecae8238ab993c17dba2c44f848a8f13619ba556d26a1c09644d5e6361b5784e721e94af37b604992f9f3dc0483e687a0cc1cc5029a34
+  checksum: b61f890499ed7dcda1e36c20a9582b17d745bad5e2b2c7bc96942465e406bc43ae03f270c08e60d1e29dab1ee50cb26970b5eb20c9aae30e066e20bd607ae4e4
   languageName: node
   linkType: hard
 
@@ -7862,12 +7862,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.1.11":
-  version: 0.1.11
-  resolution: "prettier-plugin-tailwindcss@npm:0.1.11"
+"prettier-plugin-tailwindcss@npm:^0.1.12":
+  version: 0.1.12
+  resolution: "prettier-plugin-tailwindcss@npm:0.1.12"
   peerDependencies:
     prettier: ">=2.2.0"
-  checksum: b06a81a22242407676de7b69342c1d69078e731e6363c7abd5877b044f2ddd83eba7281b085ea77754a49de88dcde164f394c31ae724a99fd46c0f9a4d4547a0
+  checksum: 9dd6ad6b4902ebf57de6421f09395cfb6a5db1108869516142f72ff469875542308e148becf2de1c6b88af0e2aa11cbcec41640eb9e3df04bdb001d4834f4a5e
   languageName: node
   linkType: hard
 
@@ -8330,6 +8330,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"resolve@npm:^1.22.1":
+  version: 1.22.1
+  resolution: "resolve@npm:1.22.1"
+  dependencies:
+    is-core-module: ^2.9.0
+    path-parse: ^1.0.7
+    supports-preserve-symlinks-flag: ^1.0.0
+  bin:
+    resolve: bin/resolve
+  checksum: 07af5fc1e81aa1d866cbc9e9460fbb67318a10fa3c4deadc35c3ad8a898ee9a71a86a65e4755ac3195e0ea0cfbe201eb323ebe655ce90526fd61917313a34e4e
+  languageName: node
+  linkType: hard
+
 "resolve@npm:^2.0.0-next.3":
   version: 2.0.0-next.3
   resolution: "resolve@npm:2.0.0-next.3"
@@ -8350,6 +8363,19 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: c79ecaea36c872ee4a79e3db0d3d4160b593f2ca16e031d8283735acd01715a203607e9ded3f91f68899c2937fa0d49390cddbe0fb2852629212f3cda283f4a7
+  languageName: node
+  linkType: hard
+
+"resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
+  version: 1.22.1
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
+  dependencies:
+    is-core-module: ^2.9.0
+    path-parse: ^1.0.7
+    supports-preserve-symlinks-flag: ^1.0.0
+  bin:
+    resolve: bin/resolve
+  checksum: 5656f4d0bedcf8eb52685c1abdf8fbe73a1603bb1160a24d716e27a57f6cecbe2432ff9c89c2bd57542c3a7b9d14b1882b73bfe2e9d7849c9a4c0b8b39f02b8b
   languageName: node
   linkType: hard
 
@@ -9067,9 +9093,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.1.4":
-  version: 3.1.4
-  resolution: "tailwindcss@npm:3.1.4"
+"tailwindcss@npm:^3.1.5":
+  version: 3.1.5
+  resolution: "tailwindcss@npm:3.1.5"
   dependencies:
     arg: ^5.0.2
     chokidar: ^3.5.3
@@ -9087,18 +9113,18 @@ __metadata:
     postcss: ^8.4.14
     postcss-import: ^14.1.0
     postcss-js: ^4.0.0
-    postcss-load-config: ^3.1.4
+    postcss-load-config: ^4.0.1
     postcss-nested: 5.0.6
     postcss-selector-parser: ^6.0.10
     postcss-value-parser: ^4.2.0
     quick-lru: ^5.1.1
-    resolve: ^1.22.0
+    resolve: ^1.22.1
   peerDependencies:
     postcss: ^8.0.9
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 716b7d80e51c4904d845920cbb88483114ae6f14b20328b9206f49fd642bbcd390b9764fc574f85901b0377184c5d4eb94c00bcf73e280f81e772cf621d390a5
+  checksum: 9b66bb481e63596d299ca994b745f0b99b1f0958148fe7a6b1b43436fe786865215b319b97fd6be1cd1050cf458656af98a0ec35f91cc5af97e3b771e8544746
   languageName: node
   linkType: hard
 
@@ -9839,6 +9865,13 @@ __metadata:
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: ce4ada136e8a78a0b08dc10b4b900936912d15de59905b2bf415b4d33c63df1d555d23acb2a41b23cf9fb5da41c256441afca3d6509de7247daa062fd2c5ea5f
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "yaml@npm:2.1.1"
+  checksum: f48bb209918aa57cfaf78ef6448d1a1f8187f45c746f933268b7023dc59e5456004611879126c9bb5ea55b0a2b1c2b392dfde436931ece0c703a3d754562bb96
   languageName: node
   linkType: hard
 
