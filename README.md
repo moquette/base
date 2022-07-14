@@ -45,8 +45,11 @@ I use React.js for almost every front-end project I create. Here's a solid boile
 - Minimal webpack and babel configs required to run a react application;
 - Production-ready build set up, with linters and pre-commit hooks.
 - Support for both TSX and JSX
-  <br/>
-  <br/>
+<br/>
+<br/>
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
+<br/>
 
 # Built With
 
@@ -57,8 +60,11 @@ I use React.js for almost every front-end project I create. Here's a solid boile
 - [TypeScript](https://www.typescriptlang.org) / [Babel](https://babeljs.io/)
 - [Prettier](https://prettier.io) / [ESLint](http://eslint.org) / [Airbnb](https://github.com/airbnb/javascript)
 - [Husky](https://typicode.github.io/husky/#/) / [Lint-staged](https://github.com/okonet/lint-staged#readme)
-  <br/>
-  <br/>
+<br/>
+<br/>
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
+<br/>
 
 # Usage
 
@@ -110,6 +116,9 @@ The build will be placed in the `build` directory. You can change the build dire
 
 <br/>
 <br/>
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
+<br/>
 
 # Scripts
 
@@ -130,6 +139,9 @@ Lints, formats and typechecks all files in the `src` directory.
 Visualize size of webpack output files with an interactive zoomable treemap.
 **Note:** Make sure to build project (`yarn build`) prior to analyzing.
 
+<br/>
+<br/>
+<p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 <br/>
 
@@ -183,6 +195,9 @@ This boilerplate uses [Yarn 3](https://yarnpkg.com) by default. Nonetheless, you
 
 <br/>
 <br/>
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
+<br/>
 
 # Contributing
 
@@ -197,14 +212,21 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+<br/>
+<br/>
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 <br/>
 <br/>
 
 # License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+<br/>
+<br/>
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br/>
+<br/>
 
   <!-- PROJECT SHIELDS -->
 <!--
