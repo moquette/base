@@ -7,37 +7,28 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-<!-- PROJECT LOGO -->
-<br />
+<!-- PROJECT SCREENSHOT -->
+
 <div align="center">
 
-[![Product Name Screen Shot][product-screenshot]](https://base.moquette.us)
+[![base][screenshot]][screenshot-url]
 
-## Base
+## BASE
 
   <p align="center">
     A Minimalistic Webpack/React Boilerplate for TypeScript projects.
+    <br/>
   </p>
 
-  <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-![Version](https://img.shields.io/github/package-json/v/moquette/base?style=for-the-badge&color=blue) ![Commit](https://img.shields.io/github/last-commit/moquette/base?style=for-the-badge&color=blue)
+![Version][version-shield]
+![Commit][commit-shield]
 [![Issues][issues-shield]][issues-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![MIT License][license-shield]][license-url]
 
   <p align="center">
     <a href="https://base.moquette.us">View Demo</a>
-    ·
     <a href="https://github.com/moquette/base/issues">Report Bug</a>
-    ·
     <a href="https://github.com/moquette/base/issues">Request Feature</a>
     <br />
         <a href="https://github.com/moquette/base"><strong>Explore the docs »</strong></a>
@@ -46,8 +37,22 @@
   </p>
 
 </div>
+<br/>
+<br/>
 
-## Features
+# About The Project
+
+I use React.js for almost every front-end project I create. Here's a solid boilerplate I use for modern React TypeScript based projects.
+
+- Base is a lean and imple alternative for CRA (Create React App);
+- We can eliminate all of its disadvantages by setting up dependencies and configs ourselves (add dependencies as needed) making it easier to add/modify build configs;
+- Minimal webpack and babel configs required to run a react application;
+- Production-ready build set up, with linters and pre-commit hooks.
+- Support for both TSX and JSX
+  <br/>
+  <br/>
+
+# Built With
 
 - [React](https://reactjs.org/) / [React Router](https://reactrouter.com)
 - [Webpack](https://webpack.js.org) / [Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer/)
@@ -57,23 +62,19 @@
 - [Prettier](https://prettier.io) / [ESLint](http://eslint.org) / [Airbnb](https://github.com/airbnb/javascript)
 - [Husky](https://typicode.github.io/husky/#/) / [Lint-staged](https://github.com/okonet/lint-staged#readme)
 
-## Project
+<br/>
+<br/>
 
-I use React.js for almost every front-end project I create. Here's a solid boilerplate I use for modern React TypeScript based projects.
-
-- Base is a lean and imple alternative for CRA (Create React App);
-- We can eliminate all of its disadvantages by setting up dependencies and configs ourselves (add dependencies as needed) making it easier to add/modify build configs;
-- Minimal webpack and babel configs required to run a react application;
-- Production-ready build set up, with linters and pre-commit hooks.
-- Support for both TSX and JSX
-
-## Usage
+# Usage
 
 Clone:
 
 ```bash
 git clone https://github.com/moquette/base.git
 ```
+
+<br/>
+<br/>
 
 ## Development
 
@@ -99,8 +100,10 @@ Pages served from http://localhost:3000.
 
 **NOTE:**
 Auto type checking, linting and formatting performed on pre-commit.
+<br/>
+<br/>
 
-## Deployment
+## Production
 
 Build:
 
@@ -109,6 +112,33 @@ yarn build
 ```
 
 The build will be placed in the `build` directory. You can change the build directory in the webpack config.
+
+<br/>
+<br/>
+
+# Scripts
+
+**yarn start:**
+
+Start development server and lanches default browser.
+
+**yarn build:**
+
+Builds and bundles resources for production.
+
+**yarn lint:**
+
+Lints, formats and typechecks all files in the `src` directory.
+
+**yarn profile:**
+
+Visualize size of webpack output files with an interactive zoomable treemap.
+**Note:** Make sure to build project (`yarn build`) prior to analyzing.
+
+<br/>
+<br/>
+
+# Extras
 
 ## Universal Alias
 
@@ -140,38 +170,55 @@ import { EmailJS } from '@components/EmailJS'
 "@components/*" : ["src/components/*"]
 ```
 
+<br/>
+<br/>
+
 ## TailwindCSS / SASS
 
 TailwindCSS / Sass and PostCSS support.
 
 `tailwind.config.js` is located in the project's root an initialzed in `styles/global.scss` . Visit [TailwindCSS](https://tailwindcss.com/docs/configuration) for more information.
 
-## Scripts
-
-**yarn start:**
-
-Start development server and lanches default browser.
-
-**yarn build:**
-
-Builds and bundles resources for production.
-
-**yarn lint:**
-
-Lints, formats and typechecks all files in the `src` directory.
-
-**yarn profile:**
-
-Visualize size of webpack output files with an interactive zoomable treemap.
-**Note:** Make sure to build project (`yarn build`) prior to analyzing.
+<br/>
+<br/>
 
 ## Yarn / NPM
 
 This boilerplate uses [Yarn 3](https://yarnpkg.com) by default. Nonetheless, you may switch to npm by deleting the `yarn.lock` file, and installing dependencies with `npm install`. Remember to change any CI workflows, Husky Git hooks, and lint-staged steps to use npm commands.
 
-## License
+<br/>
+<br/>
+
+# Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<br/>
+<br/>
+
+# License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+  <!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -181,6 +228,8 @@ This project is open source and available under the [MIT License](LICENSE).
   https://shields.io/category/platform-support
 -->
 
+[version-shield]: https://img.shields.io/github/package-json/v/moquette/base?style=for-the-badge&color=blue
+[commit-shield]: https://img.shields.io/github/last-commit/moquette/base?style=for-the-badge&color=blue
 [contributors-shield]: https://img.shields.io/github/contributors/moquette/base.svg?style=for-the-badge&color=blue
 [contributors-url]: https://github.com/moquette/base/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/moquette/base.svg?style=for-the-badge
@@ -193,7 +242,8 @@ This project is open source and available under the [MIT License](LICENSE).
 [license-url]: https://github.com/moquette/base/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jmoquette/
-[product-screenshot]: docs/images/screenshot.png
+[screenshot]: docs/images/screenshot.png
+[screenshot-url]: https://base.moquette.us
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
 [vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
