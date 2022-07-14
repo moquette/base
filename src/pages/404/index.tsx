@@ -1,22 +1,20 @@
 import './styles.scss'
 
-import Footer from '@components/footer'
-import useDocumentTitle from '@hooks/useDocumentTitle'
-import logo from '@images/logo.svg'
+import logo from '@images/logo.png'
 import { Link } from 'react-router-dom'
 
+import Layout from '../../layout'
+
 const NotFound = () => (
-  useDocumentTitle('404: Page Not Found'),
-  (
+  <Layout documentTitle="404: Page Not Found" className="not-found">
     <div className="header">
       <img src={logo} alt="logo" className="logo" />
       <p>404: Page Not Found.</p>
-      <Link className="link" to="/">
+      <Link className="link underline" to="/">
         home
       </Link>
-      <Footer />
     </div>
-  )
+  </Layout>
 )
 
 export default NotFound
