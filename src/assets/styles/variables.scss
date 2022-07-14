@@ -1,11 +1,9 @@
-$background-color-dark: #282c34;
-$background-color-light: #3178c6;
-$background-color-black: #000;
-$background-color-white: #fff;
+$background-color-dark: #333;
+$background-color-light: #fff;
+$color-secondary: #179dff;
 
 $background-color: $background-color-light;
-$text-color: #fff;
-$link-color: #f5f5f5;
+$text-color: #333;
 
 :export {
   themeColor: $background-color;

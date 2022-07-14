@@ -1,1 +1,35 @@
 @import '../../assets/styles/common.scss';
+
+.header {
+  background: $background-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  line-height: 1.5;
+  color: $text-color;
+  text-align: center;
+  padding: 0 60px 0 60px;
+}
+
+.logo {
+  $size: 30vmin;
+  width: $size;
+  height: $size;
+  pointer-events: none;
+  margin-bottom: 2em;
+  @media (prefers-reduced-motion: no-preference) {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

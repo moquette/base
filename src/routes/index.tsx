@@ -6,12 +6,7 @@ export function Routing() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <Home title="A Minimalist production ready Webpack/React boilerplate for TypeScript Projects." />
-          }
-        />
+        <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
