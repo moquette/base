@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "version": "2.0.43",
+  "version": "2.0.44",
   "description": "Webpack/TypeScript/React boilerplate with support for most common loaders and modules.",
   "keywords": [
     "react",
