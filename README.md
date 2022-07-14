@@ -36,6 +36,8 @@
 <br/>
 <br/>
 
+<!-- ABOUT -->
+
 # About The Project
 
 I use React.js for almost every front-end project I create. Here's a solid boilerplate I use for modern React TypeScript based projects.
@@ -50,6 +52,8 @@ I use React.js for almost every front-end project I create. Here's a solid boile
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 <br/>
+
+<!-- BUILT WITH -->
 
 # Built With
 
@@ -66,6 +70,8 @@ I use React.js for almost every front-end project I create. Here's a solid boile
 <br/>
 <br/>
 
+<!-- USAGE -->
+
 # Usage
 
 Clone:
@@ -76,6 +82,8 @@ git clone https://github.com/moquette/base.git
 
 <br/>
 <br/>
+
+<!-- DEVELOPMENT -->
 
 ## Development
 
@@ -104,6 +112,8 @@ Auto type checking, linting and formatting performed on pre-commit.
 <br/>
 <br/>
 
+<!-- PRODUCTION -->
+
 ## Production
 
 Build:
@@ -119,6 +129,8 @@ The build will be placed in the `build` directory. You can change the build dire
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 <br/>
+
+<!-- SCRIPTS -->
 
 # Scripts
 
@@ -144,6 +156,8 @@ Visualize size of webpack output files with an interactive zoomable treemap.
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 <br/>
+
+<!-- EXTRAS -->
 
 # Extras
 
@@ -199,6 +213,8 @@ This boilerplate uses [Yarn 3](https://yarnpkg.com) by default. Nonetheless, you
 <br/>
 <br/>
 
+<!-- CONTRIBUTING -->
+
 # Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -217,6 +233,8 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br/>
 <br/>
+
+<!-- LICENSE -->
 
 # License
 
