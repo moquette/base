@@ -1,15 +1,51 @@
-# Base
+<div id="top"></div>
+<!--
+*** Thanks for checking out this README. If you have a suggestion
+*** that would make this project better, please fork the repo
+*** and create a pull request or simply open an issue with the
+*** tag "enhancement". Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-<a href="https://base.moquette.us/" rel="Link to demo"><img src="./docs/images/screenshot.png" alt="Link to demo" /></a>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-A Minimalist production ready Webpack/React boilerplate for TypeScript Projects.
+[![Product Name Screen Shot][product-screenshot]](https://base.moquette.us)
 
-![Version](https://img.shields.io/github/package-json/v/moquette/base?style=flat-square&color=blue) ![Commit](https://img.shields.io/github/last-commit/moquette/base?style=flat-square&color=blue)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+## Base
 
-<a href="https://github.com/moquette/base" alt="Code Page">![](https://img.shields.io/static/v1?label=GitHub&message=https://github.com/moquette/base&style=flat-square&color=blue)</a>
+  <p align="center">
+    A Minimalistic Webpack/React Boilerplate for TypeScript projects.
+  </p>
 
-<a href="https://base.moquette.us" alt="Demo Page">![](https://img.shields.io/static/v1?label=Demo&message=https://base.moquette.us&style=flat-square&color=blue)</a>
+  <!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+![Version](https://img.shields.io/github/package-json/v/moquette/base?style=for-the-badge&color=blue) ![Commit](https://img.shields.io/github/last-commit/moquette/base?style=for-the-badge&color=blue)
+[![Issues][issues-shield]][issues-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
+
+  <p align="center">
+    <a href="https://base.moquette.us">View Demo</a>
+    ·
+    <a href="https://github.com/moquette/base/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/moquette/base/issues">Request Feature</a>
+    <br />
+        <a href="https://github.com/moquette/base"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+  </p>
+
+</div>
 
 ## Features
 
@@ -136,3 +172,55 @@ This boilerplate uses [Yarn 3](https://yarnpkg.com) by default. Nonetheless, you
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!--
+  https://simpleicons.org/
+  https://github.com/simple-icons/simple-icons/blob/develop/slugs.md
+  https://shields.io/category/platform-support
+-->
+
+[contributors-shield]: https://img.shields.io/github/contributors/moquette/base.svg?style=for-the-badge&color=blue
+[contributors-url]: https://github.com/moquette/base/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/moquette/base.svg?style=for-the-badge
+[forks-url]: https://github.com/moquette/base/network/members
+[stars-shield]: https://img.shields.io/github/stars/moquette/base.svg?style=for-the-badge
+[stars-url]: https://github.com/moquette/base/stargazers
+[issues-shield]: https://img.shields.io/github/issues/moquette/base.svg?style=for-the-badge
+[issues-url]: https://github.com/moquette/base/issues
+[license-shield]: https://img.shields.io/github/license/moquette/base.svg?style=for-the-badge
+[license-url]: https://github.com/moquette/base/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/jmoquette/
+[product-screenshot]: docs/images/screenshot.png
+[next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[next-url]: https://nextjs.org/
+[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[vue-url]: https://vuejs.org/
+[angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[angular-url]: https://angular.io/
+[svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[svelte-url]: https://svelte.dev/
+[laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[laravel-url]: https://laravel.com
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
+[jquery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-url]: https://jquery.com
+[webpack.js.com]: https://img.shields.io/badge/Webpack-000?style=for-the-badge&logo=webpack
+[webpack-url]: https://webpack.js.org
+[react.js]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=fff
+[react-url]: https://reactjs.org/
+[reactrouter.com]: https://img.shields.io/badge/react_router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=fff
+[reactrouter-url]: https://reactrouter.com
+[tailwindcss.com]: https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+[tailwind-url]: https://tailwindcss.com
+[sass-lang.com]: https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[sass-url]: https://sass-lang.com
+[postcss.org]: https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white
+[postcss-url]: https://postcss.org
+[typescriptlang.org]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-url]: https://typescriptlang.org/
+[prettier.io]: https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white
+[prettier-url]: https://prettier.io/
