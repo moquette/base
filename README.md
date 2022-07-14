@@ -17,7 +17,6 @@
 
   <p align="center">
     A Minimalistic Webpack/React Boilerplate for TypeScript projects.
-    <br/>
   </p>
 
 ![Version][version-shield]
@@ -32,10 +31,7 @@
     <a href="https://github.com/moquette/base/issues">Request Feature</a>
     <br />
         <a href="https://github.com/moquette/base"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
   </p>
-
 </div>
 <br/>
 <br/>
@@ -61,9 +57,8 @@ I use React.js for almost every front-end project I create. Here's a solid boile
 - [TypeScript](https://www.typescriptlang.org) / [Babel](https://babeljs.io/)
 - [Prettier](https://prettier.io) / [ESLint](http://eslint.org) / [Airbnb](https://github.com/airbnb/javascript)
 - [Husky](https://typicode.github.io/husky/#/) / [Lint-staged](https://github.com/okonet/lint-staged#readme)
-
-<br/>
-<br/>
+  <br/>
+  <br/>
 
 # Usage
 
