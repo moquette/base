@@ -1,6 +1,6 @@
 # Base
 
-<a href="https://base.moquette.us/" rel="Link to demo"><img src="./docs/images/cover.png" alt="Link to demo" /></a>
+<a href="https://base.moquette.us/" rel="Link to demo"><img src="./docs/images/screenshot.png" alt="Link to demo" /></a>
 
 A Minimalist production ready Webpack/React boilerplate for TypeScript Projects.
 
