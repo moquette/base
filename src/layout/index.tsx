@@ -23,7 +23,7 @@ export const Layout: React.FunctionComponent<LayoutProps> = ({
   useDocumentTitle(title)
   return (
     <div className={`${appClass}`}>
-      <GitCorner background="#179DFF" />
+      <GitCorner background="#179DFF" url="https://github.com/moquette/base" />
       <main>{children}</main>
       <Footer />
     </div>
