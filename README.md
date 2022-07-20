@@ -42,7 +42,7 @@
 
 I use React.js for almost every front-end project I create. Here's a solid boilerplate I use for modern React TypeScript based projects.
 
-- Base is a lean and imple alternative for CRA (Create React App);
+- Base is a lean and simple alternative for CRA (Create React App);
 - We can eliminate all of its disadvantages by setting up dependencies and configs ourselves (add dependencies as needed) making it easier to add/modify build configs;
 - Minimal webpack and babel configs required to run a react application;
 - Production-ready build set up, with linters and pre-commit hooks.
