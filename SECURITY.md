@@ -11,5 +11,4 @@ Currently being supported with security updates:
 
 ## Reporting a Vulnerability
 
-Please report any vunlnerability by
-submitting a [ticket](https://github.com/moquette/base/issues/new).
+Please report any vunlnerabilities [here](https://github.com/moquette/base/issues/new).
