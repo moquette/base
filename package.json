@@ -1,6 +1,6 @@
 {
   "name": "base",
-  "version": "3.0.16",
+  "version": "3.0.17",
   "description": "Webpack/TypeScript/React boilerplate with support for most common loaders and modules.",
   "keywords": [
     "react",
@@ -52,8 +52,8 @@
     "@babel/register": "~7.18.9",
     "@pmmmwh/react-refresh-webpack-plugin": "~0.5.9",
     "@teamsupercell/typings-for-css-modules-loader": "~2.5.1",
-    "@typescript-eslint/eslint-plugin": "~5.43.0",
-    "@typescript-eslint/parser": "~5.43.0",
+    "@typescript-eslint/eslint-plugin": "~5.44.0",
+    "@typescript-eslint/parser": "~5.44.0",
     "autoprefixer": "~10.4.13",
     "babel-eslint": "~10.1.0",
     "babel-loader": "~9.1.0",
@@ -86,7 +86,7 @@
     "postcss": "~8.4.19",
     "postcss-import": "^15.0.0",
     "postcss-loader": "~7.0.1",
-    "prettier": "~2.7.1",
+    "prettier": "~2.8.0",
     "prettier-plugin-import-sort": "~0.0.7",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "react-refresh": "~0.14.0",
