@@ -1,8 +1,9 @@
 import '@styles/global.scss'
 
-import App from '@components/app'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
+import App from '@components/app'
 
 const root = createRoot(document.getElementById('root') as HTMLElement)
 root.render(

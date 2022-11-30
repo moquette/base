@@ -1,11 +1,12 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import './styles.scss'
 
-import Footer from '@components/footer'
-import { GitCorner } from '@components/gitcorner'
 import useDocumentTitle from '@hooks/useDocumentTitle'
 import React, { ReactNode } from 'react'
 import GithubCorner from 'react-github-corner'
+
+import Footer from '@components/footer'
+import { GitCorner } from '@components/gitcorner'
 
 interface LayoutProps {
   documentTitle?: string

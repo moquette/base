@@ -1,7 +1,8 @@
 import './styles.scss'
 
-import logo from '@images/logo.png'
 import { Link } from 'react-router-dom'
+
+import logo from '@images/logo.png'
 
 import Layout from '../../layout'
 
